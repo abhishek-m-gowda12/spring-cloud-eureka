@@ -1,8 +1,8 @@
-package com.abhishek.eurekaclient1;
+package com.abhishek.springcloudeurekaclient;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
-public interface Client2Controller {
-    @RequestMapping("/get-from-client2")
+public interface EurekaController {
+    @RequestMapping("/get-from-eureka-client")
     String greeting();
 }
